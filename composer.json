@@ -1,0 +1,11 @@
+{
+    "name": "giteshk/apigee_api_catalog_extensions",
+    "license": "GPL-2.0-or-later",
+    "type": "drupal-module",
+    "description": "Extensions to Apigee API Catalog for Drupal",
+    "require": {
+        "drupal/apigee_api_catalog": ">=1.0-beta2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

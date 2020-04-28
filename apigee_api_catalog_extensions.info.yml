@@ -1,0 +1,7 @@
+name: 'Apigee API Catalog Extensions'
+type: module
+description: 'Extensions to the Apigee API Catalog module.'
+core: 8.x
+package: 'Apigee'
+dependencies:
+- drupal:apigee_api_catalog

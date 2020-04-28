@@ -1,0 +1,19 @@
+# Integration of SmartDocs Angular application with Drupal,
+# passes the OpenAPI spec URL to the SmartDocs ng app.
+smartdocs_swagger_codegen:
+  version: VERSION
+  js:
+    js/swagger_codegen.js: {}
+  dependencies:
+    - core/jquery
+    - apigee_api_catalog/apigee_api_catalog.js_yaml
+
+smartdocs_sdk_generation:
+  version: VERSION
+  js:
+    js/smartdocs_sdk_generation.js: {}
+  css:
+    theme:
+      css/smartdocs_sdk_generation.css: {}
+  dependencies:
+  - apigee_api_catalog_extensions/smartdocs_swagger_codegen

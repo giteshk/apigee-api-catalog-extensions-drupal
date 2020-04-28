@@ -1,0 +1,6 @@
+<?php
+
+
+function apigee_api_catalog_extensions_field_formatter_info_alter(array &$info){
+    $info['apigee_api_catalog_smartdocs']['class'] = \Drupal\apigee_api_catalog_extensions\Plugin\Field\FieldFormatter\SmartDocsFormatterExtension::class;
+}
